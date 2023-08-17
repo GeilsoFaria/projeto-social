@@ -12,7 +12,6 @@ html, body {
 }
 body {
     background-color: lightslategrey;
-
 }
 main{
     position: relative;
@@ -23,13 +22,10 @@ section#telefone {
      left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
-
     height: 435px;
-    width: 287px;
-    
+    width: 287px;    
     background: url('../imagens/frame-iphone.png') no-repeat;
     background-size: cover;
-
 }
 iframe#tela {
     position: relative;
@@ -45,10 +41,9 @@ section#redes-sociais img {
     width: 50px;
     height: 50px;
     margin: 10px;
-    border-radius: 50%;
+    border-radius:50%;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
     box-sizing: border-box;
-    
 }
 section#redes-sociais img:hover {
     border: 2px solid rgba(255, 255, 255, 0.61);
